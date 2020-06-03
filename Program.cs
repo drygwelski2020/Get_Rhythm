@@ -309,42 +309,6 @@ namespace Get_Rhythm
                         break;
                 }
 
-                // foreach (var album in albums)
-                // {
-                //     Console.WriteLine($"One band id is {album.Band.Id}");
-                //  }
-                //  foreach (var song in songs)
-                //  {
-                //      Console.WriteLine($"A song would be {song.Title} and the album would be {song.Album.Title}");
-                //  }
-
-                //  Console.WriteLine();
-
-
-                // TO ADD AN ENTRY TO THE DATABASE /////////////
-                // var newAlbum = new Album
-                // {
-                //     Title = "I Walk The Line",
-                //     IsExplicit = false,
-                //  ReleaseDate = "07-01-1964".ToString(),
-                //      BandId = 2,
-                //  };
-
-                //Add the new ALbum to the database
-                //context.Album.Add(newAlbum);
-
-                //Save the changes to the database
-                // context.SaveChanges();
-
-                // TO CHANGE AN ENTRY IN THE DATABASE /////////////
-                // var existingAlbum = context.Album.FirstOrDefault(album => album.Title == "I Walk The Line");
-                // if (existingAlbum != null)
-                // {
-                //     existingAlbum.IsExplicit = true;
-                //     context.Entry(existingAlbum).State = EntityState.Modified;
-                //      context.SaveChanges();
-                //  }
-
             }
         }
     }
